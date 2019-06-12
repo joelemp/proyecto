@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButtondos"
+                    android:layout_width="match_parent"
+                    android:layout_height="345dp"
+                    android:background="#fff"
+                    app:srcCompat="@drawable/binar" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:background="#0E04D8"
+                    android:enabled="true"
+                    android:text="Binario-Decimal"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="345dp"
+                    android:background="#fff"
+                    app:srcCompat="@drawable/deci" />
+
+                <TextView
+                    android:id="@+id/textdos"
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:background="#0E04D8"
+                    android:enabled="true"
+                    android:text="Binario-Decimal"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="14dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
